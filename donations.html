@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Turtle Hatcheries in Sri Lanka">
+        <title>Donations</title>
+        <link rel="stylesheet" href="styles/styles1.css">
+        <style>
+         body {
+            background-color:#CDDDEC;
+         }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+				<h1>Donations</h1>
+            </header>
+			<nav class="mainNav">
+                <ul>
+					<li><a href="index.html"><span class="navText">Home</span></a></li>
+					<li><a href="categories.html"><span class="navText">Turtle categories in Sri Lanka</span></a></li>
+                    <li><a href="hikkaduwa.html"><span class="navText">Hikkaduwa Turtle Hatchery</span></a></li>
+                    <li><a href="threats.html"><span class="navText">Threats to turtles</span></a></li>
+                    <li><a href="saveturtles.html"><span class="navText">Save Turtles</span></a></li>
+					
+                </ul>
+            </nav>
+			<div>
+				<form action="/action_page.php">
+					<label for="fname">First Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+					<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+					<label for="country">Country</label>
+							<select id="country" name="country">
+								<option value="australia">Australia</option>
+								<option value="canada">Canada</option>
+								<option value="usa">USA</option>
+								<option value="india">India</option>
+								<option value="china">China</option>
+								<option value="japan">Japan</option>
+								<option value="korea">Korea</option>
+							</select>
+					<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="Your email..">
+						
+						<h2>Payment Information</h2>
+					<label for="cardno">Card Number</label>
+						<input type="text" id="cardno" name="cardno">
+						
+					<label for="expiry">Expiry Date</label>
+						<input type="date" id="expiry" name="expiry"><br><br>
+						
+					<label for="cvc">CVC</label>
+						<input type="text" id="cvc" name="cvc">
+						
+						<input type="submit" value="DONATE">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
